@@ -6,8 +6,9 @@ export default class MyContainer extends React.Component {
   render() {
     return ( 
 		<div>
+			<header />
+			
 			<Container>
-				<header />
 				<navigations/>
 				<Grid>
 					<Grid.Column width={12}>
@@ -17,8 +18,9 @@ export default class MyContainer extends React.Component {
 						<div className="sidebar" />
 					</Grid.Column>
 				</Grid>
-				<footer/>
 			</Container>
+			
+			<footer/>
 		</div>
 		);
 	}

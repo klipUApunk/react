@@ -11,3 +11,6 @@ import HeaderMenu from './template/header/navigation';
 import Content from './template/container/content';
 import Header1 from './template/container/header';
 import Entry from './template/container/entry';
+import Readmore from './template/container/readmore';
+import Footer from './template/footer/footer';
+import Sidebar from './template/sidebar/sidebar';

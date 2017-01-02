@@ -17,15 +17,29 @@ Backtrace:
 e/usr/local/bin/sass:23:in `load'
 /usr/local/bin/sass:23:in `<main>'
 */
-#root header div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-  #root header div * {
-    flex-wrap: wrap; }
-  #root header div description {
-    align-items: center;
-    align-content: center;
-    justify-content: center; }
+#root header {
+  background: #fcfcfc;
+  border-bottom: 1px solid green;
+  margin-bottom: 15px; }
+  #root header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    #root header div * {
+      flex-wrap: wrap; }
+    #root header div description {
+      align-content: center;
+      justify-content: center; }
+    #root header div logo img {
+      max-height: 80px; }
+#root .container navigations div .menu {
+  margin-bottom: 25px; }
+#root .content {
+  min-height: 80vh;
+  margin-bottom: 15px; }
+#root footer {
+  background: #cdf;
+  padding: 30px 0; }
 
 /*# sourceMappingURL=style.css.map */

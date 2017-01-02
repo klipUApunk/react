@@ -7,7 +7,6 @@ export default class Content extends React.Component {
 		<div>
 			<header1 />
 			<text/>
-			<footer/>
 		</div>
 		);
 	}

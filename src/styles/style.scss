@@ -20,26 +20,49 @@ e/usr/local/bin/sass:23:in `load'
 
 #root {
 	header {
+		background: #fcfcfc;
+		border-bottom: 1px solid green;
+		margin-bottom: 15px;
 		div {
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
+			align-items: center;
 			* {
 				flex-wrap: wrap;
 			}
 			description {
-				align-items: center;
 				align-content: center;
 				justify-content: center;
+			}
+			logo {
+				img {
+					max-height: 80px;
+				}
 			}
 		}
 	}
 	
+	.container {
+		navigations{
+			div {
+				.menu {
+					margin-bottom: 25px; 
+				}
+			}
+		}	
+	}
+
+	.content {  
+		min-height: 80vh;
+		margin-bottom: 15px;
+	}
+
 	footer {
+		background: #cdf;
+		padding: 30px 0;
 	}
 	
-	.content {  
-	}
 	
 	.sidebar {
 	} 
