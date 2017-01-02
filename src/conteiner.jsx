@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import { Grid } from 'semantic-ui-react';
 
-export default class Conteiner extends Component {
+export default class Conteiner extends React.Component {
   render() {
     return ( 
 		<div>
@@ -19,3 +20,8 @@ export default class Conteiner extends Component {
 		);
 	}
 }
+
+ReactDOM.render(
+  <Conteiner/>,
+  document.querySelector('#root')
+); 

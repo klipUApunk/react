@@ -1,11 +1,13 @@
-//#root {
-	display: flex;
-	flex-direction: row;
+#root {
 }
 
 header {
 	width: 100%;
 	background: #fff;
+	height: 100px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
 }
 footer {
 		width: 100%;

@@ -1,13 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 export default class Main extends React.Component {
   render() {
     return ( 
 		<div id="Main">
-		  	<p>Привет, мир. Как у тебя дела, мать твою?</p>
-		  	<p>Что делаешь, сука?</p>
-		  	<p>Просто иди на хуй, карочь...</p>
+		  	<p>Я твой первый абзац!</p>
 		</div>
 		);
 	}
 }
+
+ReactDOM.render(
+  <Main/>,
+  document.querySelector('header')
+);
