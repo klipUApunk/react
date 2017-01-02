@@ -17,31 +17,15 @@ Backtrace:
 e/usr/local/bin/sass:23:in `load'
 /usr/local/bin/sass:23:in `<main>'
 */
-#root header {
-  width: 100%;
-  height: 100px;
-  background: #fff;
-  justify-content: center;
+#root header div {
   display: flex;
-  align-items: center; }
-  #root header:after {
-    content: "1"; }
-#root footer {
-  width: 100%;
-  height: 200px;
-  background: #555; }
-#root .content {
-  width: 100%;
-  background: #999;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-  #root .content:hover {
-    background: red; }
-  #root .content:active {
-    background: blue; }
-#root .sidebar {
-  width: 100%;
-  background: #ddd; }
+  flex-direction: row;
+  justify-content: space-between; }
+  #root header div * {
+    flex-wrap: wrap; }
+  #root header div description {
+    align-items: center;
+    align-content: center;
+    justify-content: center; }
 
 /*# sourceMappingURL=style.css.map */
