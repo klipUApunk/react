@@ -15,7 +15,7 @@ export default class Conteiner extends React.Component {
 					<div className="sidebar" />
 				</Grid.Column>
 			</Grid>
-			<footer />
+			<footer/>
 		</div>
 		);
 	}
