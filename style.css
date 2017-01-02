@@ -1,5 +1,5 @@
 /*
-Errno::ENOENT: No such file or directory @ rb_sysopen - app/sass
+Errno::ENOENT: No such file or directory @ rb_sysopen - style.scss
 
 Backtrace:
 /var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:484:in `read'
@@ -14,34 +14,10 @@ Backtrace:
 /var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
 /var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
 /var/lib/gems/2.3.0/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
-e/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `load'
 /usr/local/bin/sass:23:in `<main>'
 */
-#root header {
-  width: 100%;
-  height: 100px;
-  background: #fff;
-  justify-content: center;
-  display: flex;
-  align-items: center; }
-  #root header:after {
-    content: "1"; }
-#root footer {
-  width: 100%;
-  height: 200px;
-  background: #555; }
-#root .content {
-  width: 100%;
-  background: #999;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-  #root .content:hover {
-    background: red; }
-  #root .content:active {
-    background: blue; }
-#root .sidebar {
-  width: 100%;
-  background: #ddd; }
-
-/*# sourceMappingURL=style.css.map */
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - style.scss"; }

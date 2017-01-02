@@ -24,4 +24,4 @@ export default class Conteiner extends React.Component {
 ReactDOM.render(
   <Conteiner/>,
   document.querySelector('#root')
-); 
+);

@@ -12,7 +12,7 @@ export default class ConfirmExampleHeader extends Component {
   render() {
     return (
       <div>
-        <Button onClick={this.show}>Show</Button>
+        <Button onClick={this.show}>Заказать звонок</Button>
         <Confirm
           open={this.state.open}
           header='Выплывашка'

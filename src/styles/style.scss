@@ -21,10 +21,12 @@ e/usr/local/bin/sass:23:in `load'
 #root {
 	header {
 	width: 100%;
+	height: 100px;
 	background: #fff;
 	justify-content: center;
 	display: flex;
 	align-items: center;
+	&:after{content:"1";}
 	}
 	
 	footer {
@@ -45,13 +47,6 @@ e/usr/local/bin/sass:23:in `load'
 	
 	.sidebar {
 	width: 100%;
-	//height: 100px;
 	background: #ddd ;
 	} 
-}
-
-.content {
-	div {
-		background: red;
-	}
 }
