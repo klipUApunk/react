@@ -7,7 +7,7 @@ export default class Footer extends Component {
 		return (
 			<div>
 				<Container>
-					<p>Я подвал </p>
+					<p>Я подвал</p>
 					<p>Назад</p>
 				</Container>
 			</div>

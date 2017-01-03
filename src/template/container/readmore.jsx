@@ -7,19 +7,13 @@ export default class Readmore extends Component {
 	render() {
 		return (
 			<div>
-				<Grid >
-					<Grid.Column width={4}>
 					 	<Button
 					      	color='red'
 					      	content='Like'
 					      	icon='heart'
 		      				label={{ basic: true, color: 'red', pointing: 'left', content: '2,048' }}
 		    			/>
-					</Grid.Column>
-					<Grid.Column width={4}>
-						<Button content='Читать далее...' icon='right arrow' labelPosition='right' />
-					</Grid.Column>
-				</Grid>
+						<Button content='Читать далее...' icon='right arrow' labelPosition='right' floated='right' />
 			</div>
 		);
 	}
