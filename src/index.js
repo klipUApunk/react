@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import { Router, Route, IndexRoute, Link } from 'react-router';
 
 import './styles/style.css';
 import MyContainer from './container';
@@ -14,3 +16,5 @@ import Entry from './template/container/entry';
 import Readmore from './template/container/readmore';
 import Footer from './template/footer/footer';
 import Sidebar from './template/sidebar/sidebar';
+
+import IAMFooter from './test/iamfooter';

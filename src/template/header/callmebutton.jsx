@@ -2,8 +2,6 @@ import React from 'react'
 import { Button, Header, Modal, Divider, Form } from 'semantic-ui-react'
 import ReactDOM from 'react-dom';
 
-const sizes = 'small';
-
 const Callme = () => (
   <Modal trigger={<Button>Заказать звонок</Button>}>
     <Modal.Header>Введите телефон и имя</Modal.Header>

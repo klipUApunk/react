@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom';
 import { Container } from 'semantic-ui-react';
+import ReactDOM from 'react-dom';
 
 export default class Footer extends Component {
 	render() {
@@ -8,6 +8,7 @@ export default class Footer extends Component {
 			<div>
 				<Container>
 					<p>Я подвал </p>
+					<p>Назад</p>
 				</Container>
 			</div>
 		);
@@ -17,4 +18,4 @@ export default class Footer extends Component {
 ReactDOM.render(
 	<Footer/>,
 	document.querySelector('footer')
-)
+);
