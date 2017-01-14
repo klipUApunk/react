@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Grid, Container } from 'semantic-ui-react';
 
+
 export default class MyContainer extends Component {
   render() {
     return ( 

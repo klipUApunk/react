@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom';
 import { Container } from 'semantic-ui-react';
-import { Router, Route, browserHistory, Link } from 'react-router';
+import { Router, Route, Link, IndexRoute, browserHistory } from 'react-router';
+import { Footer } from '../template/footer/footer';
 
 export default class IAMFooter extends Component {
 	render() {
 		return (
 			<div>
 				<Container>
-					<Link to='/footer'>Нажми и увидишь подвал</Link>
+					<Link to='footer'>Нажми и увидишь подвал</Link>
+					{this.props.children}
 				</Container>
 			</div>
 		);
@@ -17,7 +19,8 @@ export default class IAMFooter extends Component {
 	
 ReactDOM.render((
   	<Router history={browserHistory}>
-  		<Route path="/" component={IAMFooter} />
+  		<IndexRoute component={IAMFooter} />
+  		<Route path="/footer" component={Footer} />
   	</Router>
 	),	document.querySelector('footer')
 );
